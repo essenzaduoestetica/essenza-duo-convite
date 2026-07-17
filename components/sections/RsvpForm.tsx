@@ -51,7 +51,7 @@ export default function RsvpForm() {
   const buildWhatsAppUrl = () => {
     const phone = '556135326191';
     //const message = `Olá! Sou ${confirmedData.name}. Confirmo minha presença na inauguração da Essenza Duo.\nWhatsApp: ${confirmedData.whatsapp}\nAcompanhantes: ${confirmedData.companions}`;
-    const message = `Olá! Meu nome é ${confirmedData.name} e confirmo minha presença na inauguração da Essenza Duo.\n\nWhatsApp: ${confirmedData.whatsapp}`;
+    const message = `Olá! Meu nome é ${confirmedData.name} e confirmo minha presença na inauguração da Essenza Duo, ás 18h.\n\nWhatsApp: ${confirmedData.whatsapp}`;
     return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   };
 
