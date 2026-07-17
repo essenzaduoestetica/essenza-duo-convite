@@ -12,7 +12,7 @@ const eventDetails = [
   {
     icon: Clock,
     label: 'Horário',
-    value: 'Das 15h às 17h',
+    value: 'Das 18h às 20h',
   },
   {
     icon: MapPin,
